@@ -9,6 +9,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
         rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
     <style>
         /* General Styles */
         ::selection {
@@ -193,7 +200,7 @@
 
         .whatsapp-sticky {
             position: fixed;
-            bottom: 24px;
+            bottom: 140px;
             right: 24px;
             background-color: #d4af37;
             color: rgb(0, 0, 0);
@@ -302,12 +309,59 @@
     <!-- Hero Section -->
     <div class="hero">
         <div class="hero-content">
-            <h1>ZIVA DESIGNS</h1>
-            <p>Your Dream Blouse, Stitched with Love and Precision</p>
-            <button class="whatsapp-btn" onclick="openWhatsApp()">
-                <i class="fab fa-whatsapp"></i>
-                Chat on WhatsApp
-            </button>
+            <!-- <h1>ZIVA DESIGNS</h1> -->
+            <div style="text-align: center; line-height: 1.1;">
+                <!-- First Line -->
+                <div
+                    style="font-size: 3.5rem; line-height: 1.1; font-weight: 500; margin-bottom: 5px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 0s;">
+                    We craft
+                </div>
+
+                <!-- Big B and Vertical Text -->
+                <div
+                    style="display: flex; justify-content: center; align-items: center; margin-bottom: 1px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 2s;">
+                    <div
+                        style="font-family: 'Cinzel', serif; font-size: 19rem; font-weight: 900; color: #d4af37; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4); letter-spacing: 2px;">
+                        b
+                    </div>
+
+                    <!-- Font link for Cinzel -->
+                   
+                    <div
+                        style="text-align: left; margin-left: 10px; font-size: 3.8rem;color: #d4af37; line-height: 1.1;">
+                        eautiful<br>
+                        ridal<br>
+                        louses    
+                    </div>
+                </div>
+
+                <!-- Final Line -->
+                <div
+                    style="font-size: 3.5rem; font-weight: 400; margin-top: 5px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 4s;">
+                    specially for you
+                </div>
+                <div
+                    style="font-size: 3.5rem; font-weight: 400; margin-top: 5px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 4s;">
+                    at best price
+                </div>
+            </div>
+
+
+            <!-- Keyframes Animation (Needs to be inline as well) -->
+            <style>
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0;
+                        transform: translateY(10px);
+                    }
+
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            </style>
+
         </div>
     </div>
 
@@ -328,7 +382,7 @@
                 </div>
                 <div class="service-card">
                     <i class="fas fa-heart"></i>
-                    <h3>Customer Satisfaction</h3>
+                    <h3>Delivery</h3>
                     <p>Beautiful Blouse Delivery for your wedding</p>
                 </div>
                 <!-- <div class="service-card">
@@ -339,9 +393,58 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- <div class="footer-column">
+                    <h3>To get Designs and Price Details</h3> -->
+                <!-- <h3>Chennai</h3> -->
+                <!-- <p>Bridal blouse Embroidery & stitching Expert</p> -->
+                <!-- <p>27/55, Kamraj ave 2nd st</p>
+                    <p>Adyar</p>
+                    <p>Chennai, Tamil Nadu</p> -->
+                <!-- </div> -->
+                <!-- <div class="footer-column">
+                    <h3>Business Hours</h3>
+                    <p>Monday - Saturday</p>
+                    <p>11:00 AM - 8:00 PM</p>
+                    <p>Sunday by Appointment</p>
+                </div> -->
+                <div class="footer-column">
+                    <h3 style="font-size:xx-large; font-weight: 900; margin-bottom: 5px;">To Get Designs & Price Details</h3>
+                    <h3 style="font-size: xx-large; font-weight: 900; margin-top: 0;">For Your Wedding Blouses</h3>
+                    
+                    <button style="font-size: x-large; font-weight: 900;" class="whatsapp-btn  " onclick="openWhatsApp()">
+                        <i  style=" font-size: x-large; font-weight: 900; "  class="fab fa-whatsapp"></i>
+                        Click here
+                    </button>
+                    <!-- <div class="social-links">
+                        <div>
+                            <a href="#" onclick="openWhatsApp(); return false;">
+                                <i style=" font-size: 70px ;  " class="fab fa-whatsapp"></i>
+                            </a>
+                        </div> -->
+                    <!-- <div>    
+                            <p></p>
+                            <a href="tel:9751790020" style="font-size:large; position: relative; top: 10%; ">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div> -->
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="footer-bottom">
+                <p>&copy; 2024 Ziva Designs. All rights reserved.</p>
+            </div> -->
+        </div>
+    </footer>
+    <br>
+    <br>
+    <br><br><br><br>
 
     <!-- Large Picture Section -->
-    <section class="large-picture">
+    <!-- <section class="large-picture">
         <div class="container">
             <div class="picture-container">
                 <img src="blouse 2.webp" alt="Holy Communion Dress">
@@ -351,6 +454,220 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <!-- .................................................................................review................................... -->
+    <!-- <html>
+        <head lang="en">
+            <meta charset="UTF-8">
+            <title>Testimonial</title>
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+        </head>
+        <body> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <!-- <div class="pic">
+                            <img
+                                src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                        </div> -->
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in
+                            fermentum.
+                        </p>
+                        <h3 class="title">Tamil</h3>
+                        <small class="post">-vellore</small>
+                    </div>
+
+                    <div class="testimonial">
+                        <!-- <div class="pic">
+                            <img
+                                src="https://images.pexels.com/photos/638700/pexels-photo-638700.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                        </div> -->
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in
+                            fermentum. Vivamus
+                        </p>
+                        <h3 class="title">Sharmi</h3>
+                        <small class="post">- vellore </small>
+                    </div>
+
+                    <div class="testimonial">
+                        <!-- <div class="pic">
+                            <img
+                                src="https://images.pexels.com/photos/531139/pexels-photo-531139.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                        </div> -->
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in
+                            fermentum.
+                        </p>
+                        <h3 class="title">sathishchandran</h3>
+                        <small class="post">- chennai</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#testimonial-slider").owlCarousel({
+                items: 2,
+                itemsDesktop: [1000, 2],
+                itemsDesktopSmall: [990, 2],
+                itemsTablet: [768, 1],
+                pagination: true,
+                navigation: false,
+                navigationText: ["", ""],
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    </script>
+    <style>
+        /* body {
+            margin-top: 100px !important;
+        } */
+
+        .testimonial {
+            border-right: 4px solid #d4af37;
+            box-shadow: 5px 5px 10px rgba(225, 229, 28, 0.1);
+            padding: 30px 30px 30px 130px;
+            margin: 0 15px 30px 15px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .testimonial:before {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: -17px;
+            border-top: 25px solid#d4af37;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            transform: rotate(45deg);
+        }
+
+        .testimonial:after {
+            content: "";
+            position: absolute;
+            top: -4px;
+            left: -17px;
+            border-top: 25px solid #d4af37;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            transform: rotate(135deg);
+        }
+
+        .testimonial .pic {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: 60px;
+            left: 20px;
+        }
+
+        .testimonial .pic img {
+            width: 100%;
+            height: auto;
+        }
+
+        .testimonial .description {
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #6f6f6f;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+
+        .testimonial .title {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #d4af37;
+            margin: 0;
+        }
+
+        .testimonial .post {
+            display: inline-block;
+            font-size: 17px;
+            color: #d4af37;
+            font-style: italic;
+        }
+
+        .owl-theme .owl-controls .owl-page span {
+            border: 2px solid #d4af37;
+            background: #fff !important;
+            border-radius: 0 !important;
+            opacity: 1;
+        }
+
+        .owl-theme .owl-controls .owl-page.active span,
+        .owl-theme .owl-controls .owl-page:hover span {
+            background: #d4af37;
+            !important;
+            border-color: #d4af37;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .testimonial {
+                padding: 20px;
+                text-align: center;
+            }
+
+            .testimonial .pic {
+                display: block;
+                position: static;
+                margin: 0 auto 15px;
+            }
+        }
+    </style>
+
+    <!-- ...................................................................................... -->
+    <section class="services">
+        <div class="container">
+            <!-- <h2 class="section-title">EASY THREE STEPS</h2> -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Easy & Quick Process</h3>
+                    <p>We are Friendly, quick, and easy to process through WhatsApp, Courier & Gpay. On-time delivery as
+                        promised.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-regular fa-face-smile-wink"></i>
+
+                    <h3>Trendy Designs & Happy Price</h3>
+                    <p>We suggest, discuss, and craft beautiful trendy wedding blouse designs suitable for your budget.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>Your Next Step Now</h3>
+                    <p>Just click the WhatsApp icon and say "HI." Everything will be taken care of for your beautiful
+                        bridal blouse happily.</p>
+                </div>
+                <!-- <div class="service-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Excellent Service</h3>
+                    <p>Attentive support throughout your journey with us.</p>
+                </div> -->
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -358,19 +675,21 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-column">
-                    <h3>Ziva Designs</h3>
-                    <p>27/55, Kamraj ave 2nd st</p>
+                    <h3 style="font-size: xx-large;">ZIVA DESIGNS</h3>
+                    <!-- <h3>Chennai</h3> -->
+                    <p>Bridal Blouse Embroidery & Stitching Expert</p>
+                    <!-- <p>27/55, Kamraj ave 2nd st</p>
                     <p>Adyar</p>
-                    <p>Chennai, Tamil Nadu</p>
+                    <p>Chennai, Tamil Nadu</p> -->
                 </div>
-                <div class="footer-column">
+                <!-- <div class="footer-column">
                     <h3>Business Hours</h3>
                     <p>Monday - Saturday</p>
                     <p>11:00 AM - 8:00 PM</p>
                     <p>Sunday by Appointment</p>
-                </div>
-                <div class="footer-column">
-                    <h3>BOOK YOUR DREAM BLOUSE</h3>
+                </div> -->
+                <!-- <div class="footer-column">
+                    <h3>To Get Designs and Price details</h3>
                     <div class="social-links">
                         <div>
                             <a href="#" onclick="openWhatsApp(); return false;">
@@ -378,18 +697,18 @@
                             </a>
                         </div>
                         <div>    
-                            <!-- <p></p> -->
-                            <a href="tel:9751790020" style="font-size:large; position: relative; top: 10%; ">
+                            <p></p> -->
+                <!-- <a href="tel:9751790020" style="font-size:large; position: relative; top: 10%; ">
                                 <i class="fas fa-phone"></i>
                             </a>
                         </div>
 
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="footer-bottom">
+            <!-- <div class="footer-bottom">
                 <p>&copy; 2024 Ziva Designs. All rights reserved.</p>
-            </div>
+            </div> -->
         </div>
     </footer>
 
