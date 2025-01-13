@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZIVA DESIGNS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <style>
         /* General Styles */
+        ::selection {
+            /* background-color: #000000; */
+            /* Yellow background */
+            color: #d4af37;
+            /* Black text */
+        }
+
+        /* For browsers that support ::-moz-selection (Firefox) */
+        ::-moz-selection {
+            /* background-color: #000000; */
+            color: #d4af37;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -47,7 +63,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
         }
 
         .hero-content {
@@ -125,7 +141,7 @@
             position: relative;
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
         .picture-container img {
@@ -145,7 +161,7 @@
             left: 0;
             right: 0;
             padding: 2rem;
-            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
             color: white;
         }
 
@@ -187,7 +203,7 @@
             border-radius: 50%;
             font-size: 1.5rem;
             cursor: pointer;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
             transition: all 0.8s ease;
             z-index: 1000;
             display: flex;
@@ -262,7 +278,7 @@
             .hero h1 {
                 font-size: 3rem;
             }
-            
+
             .hero p {
                 font-size: 1.2rem;
             }
@@ -281,6 +297,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Hero Section -->
     <div class="hero">
@@ -353,15 +370,20 @@
                     <p>Sunday by Appointment</p>
                 </div>
                 <div class="footer-column">
-                    <h3>Connect With Us</h3>
+                    <h3>BOOK YOUR DREAM BLOUSE</h3>
                     <div class="social-links">
-                        <a href="#" onclick="openWhatsApp(); return false;">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="tel:9751790020" style="font-size:large;">
-                            <i class="fas fa-phone"></i> 
-                          </a>
-                          
+                        <div>
+                            <a href="#" onclick="openWhatsApp(); return false;">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                        <div>    
+                            <!-- <p></p> -->
+                            <a href="tel:9751790020" style="font-size:large; position: relative; top: 10%; ">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -378,8 +400,9 @@
 
     <script>
         function openWhatsApp() {
-            window.open('https://wa.me/9751790020', '_blank');
+            window.open('https://wa.link/1kljzw', '_blank');
         }
     </script>
 </body>
+
 </html>
